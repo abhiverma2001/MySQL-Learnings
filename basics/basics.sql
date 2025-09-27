@@ -10,3 +10,18 @@ address varchar(20)
 );
 
 select * from customer;
+
+insert into customer(id,name,email,address) values(2,'Ram','abhi12@gmail.com','Basti');
+
+select * from customer;
+
+drop table customer;
+
+drop database companydb;
+
+show databases;
+
+create database comapnydb;
+
+show databases;
+
